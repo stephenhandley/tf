@@ -1,15 +1,16 @@
 tf
---
+==
 
-# Description
-
+Description
+-----------
 Simple functions for creating html tags
 
-# Latest Version
+Latest Version
+--------------
+1.0.1
 
-1.0.0
-
-# Installation
+Installation
+------------
 ```
 npm install tf --save
 ```
@@ -20,12 +21,13 @@ or in package.json
 {
   ...
   "dependencies": {
-    "tf": "~1.0.0"
+    "tf": "~1.0.1"
   }
 }
 ```
 
-# Usage
+Usage
+-----
 
 ```coffeescript
 T = require('tf')
