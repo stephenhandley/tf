@@ -1,4 +1,4 @@
-tag
+tf
 ===========
 
 # Description
@@ -11,7 +11,7 @@ Simple functions for creating html tags
 
 # Installation
 ```
-npm install tag --save
+npm install tf --save
 ```
 
 or in package.json
@@ -20,7 +20,7 @@ or in package.json
 {
   ...
   "dependencies": {
-    "tag": "~1.0.0"
+    "tf": "~1.0.0"
   }
 }
 ```
@@ -28,7 +28,7 @@ or in package.json
 # Usage
 
 ```coffeescript
-T = require('tag')
+T = require('tf')
 
 T.div(
   class : 'barf'
